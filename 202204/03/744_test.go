@@ -13,7 +13,7 @@ import (
 */
 
 func TestNextGreatestLetter(t *testing.T) {
-	t.Log(nextGreatestLetter([]byte{'a', 'b', 'c'}, 'b'))
+	t.Log(string(nextGreatestLetter([]byte{'a', 'b', 'c'}, 'b')))
 }
 
 func nextGreatestLetter(letters []byte, target byte) byte {
